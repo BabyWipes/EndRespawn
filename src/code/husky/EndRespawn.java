@@ -83,7 +83,7 @@ public class EndRespawn extends JavaPlugin implements Listener {
 			end.spawnEntity(ed.getLocation(), EntityType.ENDER_DRAGON);
 		}
 	}
-	
+
 	@EventHandler
 	public void selectRespawn(PlayerInteractEvent e) {
 		Player p = e.getPlayer();
@@ -109,7 +109,7 @@ public class EndRespawn extends JavaPlugin implements Listener {
 				}
 				p.sendMessage(ChatColor.GREEN + "Selected, and saved!");
 			} else {
-				
+
 			}
 		} else {
 			e.setCancelled(false);
