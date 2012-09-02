@@ -103,6 +103,7 @@ public class EndRespawn extends JavaPlugin implements Listener {
 				config.set("endrespawn.worldname",wn);
 				try {
 					config.save(conf);
+					sel.remove(p.getName());
 				} catch (IOException e1) {
 					e1.printStackTrace();
 				}
