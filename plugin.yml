@@ -1,0 +1,12 @@
+name: EndRespawn
+main: code.husky.EndRespawn
+version: 1.0
+description:
+author: Husky
+commands:
+    er:
+        description:
+        usage:
+    endrespawn:
+        description:
+        usage:
